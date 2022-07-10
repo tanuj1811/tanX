@@ -1,0 +1,38 @@
+.container {
+	margin: auto;
+   
+
+	.heading {
+		display: flex;
+		align-items: center;
+		font-size: 2.5rem;
+		margin: 0 0 2rem 0;
+
+		svg {
+			width: 3rem;
+			height: 3rem;
+			margin-left: 0.5rem;
+		}
+	}
+
+	.form_container {
+		border-radius: 1rem;
+		width: 55rem;
+		padding: 2rem;
+        background-image: linear-gradient(to right, rgba(81, 117, 72, 0.755) , rgba(176, 251, 197, 0.755));
+        margin: auto;
+
+		.input_container {
+			margin: 0.5rem 0;
+		}
+
+		.file_container {
+			margin: 2rem 0;
+		}
+	}
+    .submit {
+        color: black;
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
